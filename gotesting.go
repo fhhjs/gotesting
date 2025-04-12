@@ -11,7 +11,7 @@ func GetFloat() (float64, error) {
 	reader := bufio.NewReader(os.Stdin)
 	input, err := reader.ReadString('\n')
 	if err != nil {
-		return 1, err
+		return 5, err
 	}
 
 	input = strings.TrimSpace(input)
